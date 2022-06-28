@@ -3,8 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'GUITAR SHOP NODE' });
+  res.render("index"); //view/index.hbs
 });
 
 module.exports = router;
-S
